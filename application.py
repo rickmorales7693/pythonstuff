@@ -22,3 +22,28 @@ weight = 226
 sentence = first_name + " " + last_name + " weighs " + str(weight) + " lbs"
 
 print(sentence)
+
+data_type = type("12.08")
+
+print(data_type)
+
+age = 26
+
+adult = True
+
+data_type = type(age)
+
+print(data_type)
+print(type(adult))
+
+adult = False
+data_type = type(adult)
+print(data_type)
+
+adult = 26
+data_type = type(adult)
+print(data_type)
+
+adult = "string value"
+data_type = type(adult)
+print(data_type)
