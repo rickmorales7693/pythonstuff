@@ -47,3 +47,18 @@ print(data_type)
 adult = "string value"
 data_type = type(adult)
 print(data_type)
+
+num1  = 3
+num2 = 10
+
+answer = num1 + num2
+print(answer)
+answer = num1 - num2
+print(answer)
+answer = num1 * num2
+print(answer)
+answer = num1 / num2
+print(answer)
+
+answer = 10 + 3 * 9 - 4
+print(answer)
