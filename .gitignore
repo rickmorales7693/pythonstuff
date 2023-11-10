@@ -240,6 +240,11 @@ fabric.properties
 __pycache__/
 *.py[cod]
 *$py.class
+*.pyc
+*.pyo
+*.bak
+
+
 
 # C extensions
 *.so
