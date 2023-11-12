@@ -5,11 +5,9 @@
     How would you change the code to meet the requirement?
 """
 # Solution:
-remainder = 15 % 4
+remainder = "The remainder is {0}".format(15 % 4)
 print(remainder)
 
-# remainder = 15 % 4
-# print(remainder)
 
 
 # Assignment 2:
@@ -23,7 +21,7 @@ print("We have {2} small boxes, {2} large boxes, {2} medium boxes".format(10,12,
 
 """
 # Solution:
-print("We have {0} small boxes, {1} large boxes, {2} medium boxes".format(10,12,12))
+print("We have {0} small boxes, {1} large boxes, {2} medium boxes".format(10, 12, 12))
 
 
 
@@ -50,9 +48,7 @@ word = "Cool"
 # Expected Result Printed: [[Cool]]
 
 # Your code below:
-
-# Solution Below:
-# print(chars[:2] + word + chars[2:])
+print(chars[:2] + word + chars[2:])
 
 
 
@@ -67,21 +63,18 @@ word = "Cool"
     ---------------
     word1 = "Vehicle"
     word2 = "Robot"
-    result - ehicleRbot
+    result - VehicleRobot
 
 """
 
 word1 = "Computer"
 word2 = "Truck"
 
-# Expected Result Printed: omputerTuck
+# Expected Result Printed: ComputerTuck
 
 # Your code below:
-
-
-# Solution Below:
-# result = word1[1:] + word2[0:1] + word2[2:]
-# print(result)
+result = word1[0:] + word2[0:1] + word2[2:]
+print(result)
 
 
 
@@ -108,11 +101,7 @@ word = "Cool"
 
 # Expected Result Printed: <<[Cool]]]
 
-
 # Your code below:
-
-
-# Solution Below:
-# size = len(chars)
-# idx = int(size/2) # dividing results in a float datatype.
-# print(chars[:idx] + word + chars[idx:])
+size = len(chars)
+idx = int(size/2) # dividing results in a float datatype.
+print(chars[:idx] + word + chars[idx:])
