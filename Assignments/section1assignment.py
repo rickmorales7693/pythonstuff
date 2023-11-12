@@ -48,7 +48,8 @@ word = "Cool"
 # Expected Result Printed: [[Cool]]
 
 # Your code below:
-print(chars[:2] + word + chars[2:])
+result = chars[:2] + word + chars[2:]
+print(result)
 
 
 
@@ -63,17 +64,17 @@ print(chars[:2] + word + chars[2:])
     ---------------
     word1 = "Vehicle"
     word2 = "Robot"
-    result - VehicleRobot
+    result - ehicleRbot
 
 """
 
 word1 = "Computer"
 word2 = "Truck"
 
-# Expected Result Printed: ComputerTuck
+# Expected Result Printed: omputerTuck
 
 # Your code below:
-result = word1[0:] + word2[0:1] + word2[2:]
+result = word1[1:] + word2[0:1] + word2[2:]
 print(result)
 
 
@@ -104,4 +105,5 @@ word = "Cool"
 # Your code below:
 size = len(chars)
 idx = int(size/2) # dividing results in a float datatype.
-print(chars[:idx] + word + chars[idx:])
+result = chars[:idx] + word + chars[idx:]
+print(result)
